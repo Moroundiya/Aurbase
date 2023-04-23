@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Bio Data</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/css/intlTelInput.css'>
+</head>
+<body>
+    <div class="row w-100 h-100 mx-0">
+        <div class="col-lg-2 sidebar py-4 sidebar px-0 h-100">
+            <a href="" class="sidebar-logo-link d-block mx-3">
+                <img src="assets/img/logo.png" alt="" class="logo mx-auto email-confirmation-logo sidebar-logo">
+            </a>
+            <hr class="w-100 sidebar-hr">
+            <ul class="sidebar-menu mt-4 px-1">
+                <li class="sidebar-menu-item fw-semibold py-2  px-3">
+                    <iconify-icon icon="bxs:dashboard" class="me-2 sidebar-menu-item-icon"></iconify-icon>
+                    <a href="Dashboard.html" class="sidebar-menu-link">Dashboard</a>
+                </li>
+                <li class="sidebar-menu-item fw-semibold py-2 px-3 position-relative active-menu rounded">
+                    <iconify-icon icon="ep:success-filled" class="position-absolute profile-success-icon">
+                    </iconify-icon>
+                    <iconify-icon icon="ic:baseline-assignment" class="me-2 sidebar-menu-item-icon"></iconify-icon>
+                    <a href="profile.html" class="sidebar-menu-link">Profile</a>
+                </li>
+                <li class="sidebar-menu-item fw-semibold py-2 px-3 position-relative" id="track-sidebar-menu-item">
+                    <iconify-icon icon="bxs:right-arrow" class="position-absolute track-select-arrow"
+                        id="track-sidebar-menu-item-icon"></iconify-icon>
+                    <iconify-icon icon="ic:round-track-changes" class="me-2 sidebar-menu-item-icon"></iconify-icon>
+                    <a href="javascript:void(0)" class="sidebar-menu-link">Track</a>
+                </li>
+                <li class="mb-4 sidebar-track-submenu-parent" id="sidebar-track-submenu-parent">
+                    <ul class="sidebar-track-submenu-lists ps-1 position-relative">
+                        <div class="sidebar-track-submenu-vl position-absolute my-auto">
+                        </div>
+                        <li class="sidebar-track-submenu-item position-relative position-relative">
+                            <iconify-icon icon="material-symbols:cancel"
+                                class="profile-cancel-success-icon position-absolute disabled-submenu"></iconify-icon>
+                            <iconify-icon icon="ci:dot-05-xl"
+                                class="position-absolute fs-3 track-submenu-item-bullet-icon"></iconify-icon>
+                            <a href="Personality-test-select-stack.html"
+                                class="sidebar-track-submenu-item-link w-100 h-100 py-2 disabled-submenu">Personality
+                                Test</a>
+                        </li>
+                        <li class="sidebar-track-submenu-item position-relative">
+                            <iconify-icon icon="material-symbols:cancel"
+                                class="profile-cancel-success-icon position-absolute disabled-submenu"></iconify-icon>
+                            <iconify-icon icon="ci:dot-05-xl"
+                                class="position-absolute fs-3 track-submenu-item-bullet-icon"></iconify-icon>
+                            <a href="Language-Test.html"
+                                class="sidebar-track-submenu-item-link w-100 h-100  py-2 disabled-submenu">Language
+                                Test</a>
+                        </li>
+                        <li class="sidebar-track-submenu-item position-relative">
+                            <iconify-icon icon="material-symbols:cancel"
+                                class="profile-cancel-success-icon position-absolute disabled-submenu"></iconify-icon>
+                            <iconify-icon icon="ci:dot-05-xl"
+                                class="position-absolute fs-3 track-submenu-item-bullet-icon"></iconify-icon>
+                            <a href="Stack-Test-List.html"
+                                class="sidebar-track-submenu-item-link w-100 h-100 py-2 disabled-submenu">Stack
+                                Test</a>
+                        </li>
+                        <li class="sidebar-track-submenu-item position-relative">
+                            <iconify-icon icon="material-symbols:cancel"
+                                class="profile-cancel-success-icon position-absolute disabled-submenu"></iconify-icon>
+                            <iconify-icon icon="ci:dot-05-xl"
+                                class="position-absolute fs-3 track-submenu-item-bullet-icon"></iconify-icon>
+                            <a href="Matching.html"
+                                class="sidebar-track-submenu-item-link w-100 h-100 py-2 disabled-submenu">Live
+                                Interview</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-menu-item fw-semibold py-2 px-3 position-relative" id="aurgig-menu">
+                    <div class="aur-gig-tag position-absolute px-2 py-1 rounded">
+                        Get matched
+                    </div>
+                    <iconify-icon icon="icon-park-outline:weixin-market" class="me-2 sidebar-menu-item-icon">
+                    </iconify-icon>
+                    <a href="Aurgig.html" class="sidebar-menu-link">Aur Gig</a>
+                </li>
+                <li class="sidebar-menu-item fw-semibold py-2 px-3">
+                    <iconify-icon icon="ant-design:dollar-circle-outlined" class="me-2 sidebar-menu-item-icon">
+                    </iconify-icon>
+                    <a href="Earnings.html" class="sidebar-menu-link">Earning</a>
+                </li>
+                <li class="sidebar-menu-item fw-semibold py-2 px-3 position-relative" id="practice-menu">
+                    <div class="practice-tag position-absolute px-2 py-1 rounded">
+                        Coming Soon
+                    </div>
+                    <iconify-icon icon="ic:baseline-message" class="me-2 sidebar-menu-item-icon"></iconify-icon>
+                    <a href="" class="sidebar-menu-link">Practice</a>
+                </li>
+                <li class="sidebar-menu-item fw-semibold py-2 px-3">
+                    <iconify-icon icon="fluent:people-community-20-filled" class="me-2 sidebar-menu-item-icon">
+                    </iconify-icon>
+                    <a href="#" class="sidebar-menu-link">Community</a>
+                </li>
+                <li class="sidebar-menu-item logout-menu fw-semibold py-2 px-3">
+                    <iconify-icon icon="ant-design:logout-outlined" class="me-2 sidebar-menu-item-icon"></iconify-icon>
+                    <a href="../index.html" class="sidebar-menu-link">Logout</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-10 px-0 dashboard-panel-container">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-light aurbase_navbar px-3 pb-3">
+                <div class="">
+                    <div class="d-flex justify-content-between align-items-end w-100">
+                        <div class="d-flex ">
+                            <div id="nav-icon-anim" onclick="changeStyle()">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <a class="navbar-brand ms-2" href="../index.html">
+                                <img src="assets/img/logo.png" alt=""
+                                    class="logo mx-auto email-confirmation-logo aurbase_navbar_mobile_logo">
+                            </a>
+                        </div>
+                        <div class="notification-container d-flex justify-content-center align-items-center">
+                            <label class="toggle ms-3 me-2">
+                                <input class="toggle-checkbox" type="checkbox" checked>
+                                <div class="toggle-switch"></div>
+                            </label>
+                            <a href="Notification.html"
+                                class="position-relative p-0 m-0 ms-1 d-flex justify-content-center align-items-center notification-bar-icon">
+                                <iconify-icon icon="clarity:notification-line" class="fs-3" role="button">
+                                </iconify-icon>
+                                <p
+                                    class="notification-number p-0 m-0 d-flex justify-content-center align-items-center fw-bold">
+                                    2
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="shownavbar" id="collapsibleNavId22">
+                        <div class="shownavbarcontents">
+                            <ul class="navbar-nav me-auto mt-5 mt-lg-0">
+                                <li class="sidebar-menu-item fw-semibold mobile-sidebar-menu-items py-2 px-3 ">
+                                    <iconify-icon icon="bxs:dashboard" class="me-2 mobile-menu-sidebar-icon">
+                                    </iconify-icon>
+                                    <a href="Dashboard.html" class="sidebar-menu-link">Dashboard</a>
+                                </li>
+                                <li
+                                    class="sidebar-menu-item fw-semibold mobile-sidebar-menu-items py-2 px-3 position-relative active-menu rounded">
+                                    <iconify-icon icon="ep:success-filled"
+                                        class="position-absolute profile-success-icon">
+                                    </iconify-icon>
+                                    <iconify-icon icon="ic:baseline-assignment" class="me-2 mobile-menu-sidebar-icon">
+                                    </iconify-icon>
+                                    <a href="profile.html" class="sidebar-menu-link">Profile</a>
+                                </li>
+                                <li class="sidebar-menu-item fw-semibold mobile-sidebar-menu-items py-2 px-3 position-relative"
+                                    id="track-sidebar-menu-item-mobile">
+                                    <iconify-icon icon="bxs:right-arrow" class="position-absolute track-select-arrow"
+                                        id="track-sidebar-menu-item-icon-mobile">
+                                    </iconify-icon>
+                                    <iconify-icon icon="ic:round-track-changes" class="me-2 mobile-menu-sidebar-icon">
+                                    </iconify-icon>
+                                    <a href="javascript:void(0)" class="sidebar-menu-link">Track</a>
+                                </li>
+                                <li class="mb-4 sidebar-track-submenu-parent" id="sidebar-track-submenu-parent-mobile">
+                                    <ul class="sidebar-track-submenu-lists ps-1 position-relative">
+                                        <div class="sidebar-track-submenu-mobile-vl position-absolute my-auto">
+                                        </div>
+                                        <li class="sidebar-track-submenu-item position-relative position-relative">
+                                            <iconify-icon icon="material-symbols:cancel"
+                                                class="profile-cancel-success-icon position-absolute disabled-submenu">
+                                            </iconify-icon>
+                                            <iconify-icon icon="ci:dot-05-xl"
+                                                class="position-absolute fs-3 track-submenu-item-bullet-icon">
+                                            </iconify-icon>
+                                            <a href="Personality-test-select-stack.html"
+                                                class="sidebar-track-submenu-item-link w-100 h-100 py-2 disabled-submenu sidebar-track-submenu-item-mobile">Personality
+                                                Test</a>
+                                        </li>
+                                        <li class="sidebar-track-submenu-item position-relative">
+                                            <iconify-icon icon="material-symbols:cancel"
+                                                class="profile-cancel-success-icon position-absolute disabled-submenu">
+                                            </iconify-icon>
+                                            <iconify-icon icon="ci:dot-05-xl"
+                                                class="position-absolute fs-3 track-submenu-item-bullet-icon">
+                                            </iconify-icon>
+                                            <a href="Language-Test.html"
+                                                class="sidebar-track-submenu-item-link w-100 h-100  py-2 disabled-submenu sidebar-track-submenu-item-mobile">Language
+                                                Test</a>
+                                        </li>
+                                        <li class="sidebar-track-submenu-item position-relative">
+                                            <iconify-icon icon="material-symbols:cancel"
+                                                class="profile-cancel-success-icon position-absolute disabled-submenu">
+                                            </iconify-icon>
+                                            <iconify-icon icon="ci:dot-05-xl"
+                                                class="position-absolute fs-3 track-submenu-item-bullet-icon">
+                                            </iconify-icon>
+                                            <a href="Stack-Test-List.html"
+                                                class="sidebar-track-submenu-item-link w-100 h-100 py-2 disabled-submenu sidebar-track-submenu-item-mobile">Stack
+                                                Test</a>
+                                        </li>
+                                        <li class="sidebar-track-submenu-item position-relative">
+                                            <iconify-icon icon="material-symbols:cancel"
+                                                class="profile-cancel-success-icon position-absolute disabled-submenu">
+                                            </iconify-icon>
+                                            <iconify-icon icon="ci:dot-05-xl"
+                                                class="position-absolute fs-3 track-submenu-item-bullet-icon">
+                                            </iconify-icon>
+                                            <a href="Matching.html"
+                                                class="sidebar-track-submenu-item-link w-100 h-100 py-2 disabled-submenu sidebar-track-submenu-item-mobile">Live
+                                                Interview</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="sidebar-menu-item fw-semibold mobile-sidebar-menu-items py-2 px-3 position-relative"
+                                    id="aurgig-menu-mobile">
+                                    <div class="aur-gig-tag-mobile position-absolute px-2 py-1 rounded">
+                                        Get matched
+                                    </div>
+                                    <iconify-icon icon="icon-park-outline:weixin-market"
+                                        class="me-2 mobile-menu-sidebar-icon"></iconify-icon>
+                                    <a href="Aurgig.html" class="sidebar-menu-link">Aur Gig</a>
+                                </li>
+                                <li class="sidebar-menu-item fw-semibold mobile-sidebar-menu-items py-2 px-3">
+                                    <iconify-icon icon="ant-design:dollar-circle-outlined"
+                                        class="me-2 mobile-menu-sidebar-icon"></iconify-icon>
+                                    <a href="Earnings.html" class="sidebar-menu-link">Earning</a>
+                                </li>
+                                <li class="sidebar-menu-item fw-semibold mobile-sidebar-menu-items py-2 px-3 position-relative"
+                                    id="practice-menu-mobile">
+                                    <div class="practice-tag-mobile position-absolute px-2 py-1 rounded">
+                                        Coming Soon
+                                    </div>
+                                    <iconify-icon icon="ic:baseline-message" class="me-2 mobile-menu-sidebar-icon">
+                                    </iconify-icon>
+                                    <a href="" class="sidebar-menu-link">Practice</a>
+                                </li>
+                                <li class="sidebar-menu-item fw-semibold mobile-sidebar-menu-items py-2 px-3">
+                                    <iconify-icon icon="fluent:people-community-20-filled"
+                                        class="me-2 mobile-menu-sidebar-icon"></iconify-icon>
+                                    <a href="#" class="sidebar-menu-link">Community</a>
+                                </li>
+                                <li
+                                    class="sidebar-menu-item logout-menu fw-semibold mobile-sidebar-menu-items py-2 px-3">
+                                    <iconify-icon icon="ant-design:logout-outlined"
+                                        class="me-2 mobile-menu-sidebar-icon"></iconify-icon>
+                                    <a href="../index.html" class="sidebar-menu-link">Logout</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="dashboard-panel">
+                <div class="modal fade " id="bioDataEdit" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content py-4 px-5">
+                            <div class="modal-header p-0 pb-2">
+                                <h3 class="modal-title fw-semibold" id="staticBackdropLabel">Bio Data</h3>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body px-0 ">
+                                <div class="">
+                                    <h5 class="fw-semibold">Profile Picture (Compulsory)</h5>
+                                    <div class=" d-flex align-items-center mt-4 mb-5">
+                                        <div class="bio-data-profile-picture me-3">
+                                            <img src="assets/img/bio-data-picture.png" alt="" class="img-fluid"
+                                                id="bio-data-profile-picture">
+                                        </div>
+                                        <button class="bio-data-profile-picture-upload-btn position-relative rounded ">
+                                            <input type="file"
+                                                class="position-absolute top-0 start-0 w-100 h-100 opacity-0 profile-picture-upload-input">
+                                            Change profile picture
+                                        </button>
+                                    </div>
+                                    <div class="row bio-data-input-parent-container mx-0">
+                                        <div class="col-lg-6 d-flex flex-column bio-data-input-child-container">
+                                            <label for="" class="bio-data-name-label fw-semibold mb-2">FIRST
+                                                NAME</label>
+                                            <input type="text" class="bio-data-name-input" placeholder="Micheal"
+                                                value="Micheal" id="user-first-name" disabled>
+                                        </div>
+                                        <div class="col-lg-6 d-flex flex-column bio-data-input-child-container">
+                                            <label for="" class="bio-data-name-label fw-semibold mb-2">LAST NAME</label>
+                                            <input type="text" class="bio-data-name-input" placeholder="Joseph"
+                                                value="Joseph" id="user-first-name" disabled>
+                                        </div>
+                                    </div>
+                                    <div class="row bio-data-input-parent-container mx-0">
+                                        <div class="col-lg-6 d-flex flex-column bio-data-input-child-container">
+                                            <label for="" class="bio-data-name-label fw-semibold mb-2">GENDER</label>
+                                            <div class="position-relative">
+                                                <iconify-icon icon="bxs:down-arrow"
+                                                    class="position-absolute bio-data-gender-icon">
+                                                </iconify-icon>
+                                                <select name="" class="bio-data-name-input bio-data-name-select w-100">
+                                                    <option value="">Male</option>
+                                                    <option value="">Female</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 d-flex flex-column bio-data-input-child-container">
+                                            <label for="" class="bio-data-name-label fw-semibold mb-2 ">PHONE
+                                                NUMBER</label>
+                                            <input type="tel" id="mobile_code" class="w-100 bio-data-name-input "
+                                                placeholder="Mobile Number" name="name">
+                                        </div>
+                                    </div>
+                                    <div class="row bio-data-input-parent-container mx-0">
+                                        <div class="col-lg-6 d-flex flex-column bio-data-input-child-container">
+                                            <label for="" class="bio-data-name-label fw-semibold mb-2">COUNTRY OF
+                                                RESIDENCE</label>
+                                            <div class="position-relative">
+                                                <iconify-icon icon="bxs:down-arrow"
+                                                    class="position-absolute bio-data-gender-icon">
+                                                </iconify-icon>
+                                                <div class="form-group">
+                                                    <select
+                                                        class=" w-100 h-100 bio-data-name-input bio-data-name-select">
+                                                        <option class="" disabled selected>Select Country</option>
+                                                        <option value="AF">Afghanistan</option>
+                                                        <option value="AO">Angola</option>
+                                                        <option value="AL">Albania</option>
+                                                        <option value="AD">Andorra</option>
+                                                        <option value="AE">United Arab Emirates</option>
+                                                        <option value="AR">Argentina</option>
+                                                        <option value="AM">Armenia</option>
+                                                        <option value="AG">Antigua and Barbuda</option>
+                                                        <option value="AU">Australia</option>
+                                                        <option value="AT">Austria</option>
+                                                        <option value="AZ">Azerbaijan</option>
+                                                        <option value="BI">Burundi</option>
+                                                        <option value="BE">Belgium</option>
+                                                        <option value="BJ">Benin</option>
+                                                        <option value="BF">Burkina Faso</option>
+                                                        <option value="BD">Bangladesh</option>
+                                                        <option value="BG">Bulgaria</option>
+                                                        <option value="BH">Bahrain</option>
+                                                        <option value="BS">Bahamas</option>
+                                                        <option value="BA">Bosnia and Herzegovina</option>
+                                                        <option value="BY">Belarus</option>
+                                                        <option value="BZ">Belize</option>
+                                                        <option value="BO">Bolivia</option>
+                                                        <option value="BR">Brazil</option>
+                                                        <option value="BB">Barbados</option>
+                                                        <option value="BN">Brunei</option>
+                                                        <option value="BT">Bhutan</option>
+                                                        <option value="BW">Botswana</option>
+                                                        <option value="CF">Central African Republic</option>
+                                                        <option value="CA">Canada</option>
+                                                        <option value="CH">Switzerland</option>
+                                                        <option value="CL">Chile</option>
+                                                        <option value="CN">China</option>
+                                                        <option value="CI">Ivory Coast</option>
+                                                        <option value="CM">Cameroon</option>
+                                                        <option value="CD">DR Congo</option>
+                                                        <option value="CG">Republic of the Congo</option>
+                                                        <option value="CO">Colombia</option>
+                                                        <option value="KM">Comoros</option>
+                                                        <option value="CV">Cape Verde</option>
+                                                        <option value="CR">Costa Rica</option>
+                                                        <option value="CU">Cuba</option>
+                                                        <option value="CY">Cyprus</option>
+                                                        <option value="CZ">Czechia</option>
+                                                        <option value="DE">Germany</option>
+                                                        <option value="DJ">Djibouti</option>
+                                                        <option value="DM">Dominica</option>
+                                                        <option value="DK">Denmark</option>
+                                                        <option value="DO">Dominican Republic</option>
+                                                        <option value="DZ">Algeria</option>
+                                                        <option value="EC">Ecuador</option>
+                                                        <option value="EG">Egypt</option>
+                                                        <option value="ER">Eritrea</option>
+                                                        <option value="ES">Spain</option>
+                                                        <option value="EE">Estonia</option>
+                                                        <option value="ET">Ethiopia</option>
+                                                        <option value="FI">Finland</option>
+                                                        <option value="FJ">Fiji</option>
+                                                        <option value="FR">France</option>
+                                                        <option value="FM">Micronesia</option>
+                                                        <option value="GA">Gabon</option>
+                                                        <option value="GB">United Kingdom</option>
+                                                        <option value="GE">Georgia</option>
+                                                        <option value="GH">Ghana</option>
+                                                        <option value="GN">Guinea</option>
+                                                        <option value="GM">Gambia</option>
+                                                        <option value="GW">Guinea-Bissau</option>
+                                                        <option value="GQ">Equatorial Guinea</option>
+                                                        <option value="GR">Greece</option>
+                                                        <option value="GD">Grenada</option>
+                                                        <option value="GT">Guatemala</option>
+                                                        <option value="GY">Guyana</option>
+                                                        <option value="HN">Honduras</option>
+                                                        <option value="HR">Croatia</option>
+                                                        <option value="HT">Haiti</option>
+                                                        <option value="HU">Hungary</option>
+                                                        <option value="ID">Indonesia</option>
+                                                        <option value="IN">India</option>
+                                                        <option value="IE">Ireland</option>
+                                                        <option value="IR">Iran</option>
+                                                        <option value="IQ">Iraq</option>
+                                                        <option value="IS">Iceland</option>
+                                                        <option value="IL">Israel</option>
+                                                        <option value="IT">Italy</option>
+                                                        <option value="JM">Jamaica</option>
+                                                        <option value="JO">Jordan</option>
+                                                        <option value="JP">Japan</option>
+                                                        <option value="KZ">Kazakhstan</option>
+                                                        <option value="KE">Kenya</option>
+                                                        <option value="KG">Kyrgyzstan</option>
+                                                        <option value="KH">Cambodia</option>
+                                                        <option value="KI">Kiribati</option>
+                                                        <option value="KN">Saint Kitts and Nevis</option>
+                                                        <option value="KR">South Korea</option>
+                                                        <option value="KW">Kuwait</option>
+                                                        <option value="LA">Laos</option>
+                                                        <option value="LB">Lebanon</option>
+                                                        <option value="LR">Liberia</option>
+                                                        <option value="LY">Libya</option>
+                                                        <option value="LC">Saint Lucia</option>
+                                                        <option value="LI">Liechtenstein</option>
+                                                        <option value="LK">Sri Lanka</option>
+                                                        <option value="LS">Lesotho</option>
+                                                        <option value="LT">Lithuania </option>
+                                                        <option value="LU">Luxembourg </option>
+                                                        <option value="LV">Latvia</option>
+                                                        <option value="MA">Morocco</option>
+                                                        <option value="MC">Monaco</option>
+                                                        <option value="MD">Moldova</option>
+                                                        <option value="MG">Madagascar</option>
+                                                        <option value="MV">Maldives </option>
+                                                        <option value="MX">Mexico</option>
+                                                        <option value="MH">Marshall Islands</option>
+                                                        <option value="MK">Macedonia</option>
+                                                        <option value="ML">Mali</option>
+                                                        <option value="MT">Malta</option>
+                                                        <option value="MM">Myanmar</option>
+                                                        <option value="ME">Montenegro</option>
+                                                        <option value="MN">Mongolia</option>
+                                                        <option value="MZ">Mozambique</option>
+                                                        <option value="MR">Mauritania</option>
+                                                        <option value="MU">Mauritius</option>
+                                                        <option value="MW">Malawi</option>
+                                                        <option value="MY">Malaysia</option>
+                                                        <option value="NA">Namibia </option>
+                                                        <option value="NE">Niger</option>
+                                                        <option value="NG">Nigeria </option>
+                                                        <option value="NI">Nicaragua</option>
+                                                        <option value="NL">Netherlands</option>
+                                                        <option value="NO">Norway</option>
+                                                        <option value="NP">Nepal</option>
+                                                        <option value="NR">Nauru</option>
+                                                        <option value="NZ">New Zealand</option>
+                                                        <option value="OM">Oman</option>
+                                                        <option value="PK">Pakistan</option>
+                                                        <option value="PA">Panama</option>
+                                                        <option value="PE">Peru</option>
+                                                        <option value="PH">Philippines</option>
+                                                        <option value="PW">Palau</option>
+                                                        <option value="PG">Papua New Guinea</option>
+                                                        <option value="PL">Poland</option>
+                                                        <option value="KP">North Korea</option>
+                                                        <option value="PT">Portugal</option>
+                                                        <option value="PY">Paraguay</option>
+                                                        <option value="QA">Qatar</option>
+                                                        <option value="RO">Romania </option>
+                                                        <option value="RU">Russia</option>
+                                                        <option value="RW">Rwanda </option>
+                                                        <option value="SA">Saudi Arabia </option>
+                                                        <option value="SD">Sudan</option>
+                                                        <option value="SN">Senegal</option>
+                                                        <option value="SG">Singapore</option>
+                                                        <option value="SB">Solomon Islands</option>
+                                                        <option value="SL">Sierra Leone</option>
+                                                        <option value="SV">El Salvador</option>
+                                                        <option value="SM">San Marino</option>
+                                                        <option value="SO">Somalia</option>
+                                                        <option value="RS">Serbia</option>
+                                                        <option value="SS">South Sudan</option>
+                                                        <option value="ST">São Tomé and Príncipe </option>
+                                                        <option value="SR">Suriname </option>
+                                                        <option value="SK">Slovakia </option>
+                                                        <option value="SI">Slovenia</option>
+                                                        <option value="SE">Sweden </option>
+                                                        <option value="SZ">Swaziland </option>
+                                                        <option value="SC">Seychelles</option>
+                                                        <option value="SY">Syria</option>
+                                                        <option value="TD">Chad</option>
+                                                        <option value="TG">Togo</option>
+                                                        <option value="TH">Thailand</option>
+                                                        <option value="TJ">Tajikistan</option>
+                                                        <option value="TM">Turkmenistan</option>
+                                                        <option value="TL">Timor-Leste</option>
+                                                        <option value="TO">Tonga</option>
+                                                        <option value="TT">Trinidad and Tobago</option>
+                                                        <option value="TN">Tunisia </option>
+                                                        <option value="TR">Turkey</option>
+                                                        <option value="TV">Tuvalu</option>
+                                                        <option value="TZ">Tanzania</option>
+                                                        <option value="UG">Uganda</option>
+                                                        <option value="UA">Ukraine</option>
+                                                        <option value="UY">Uruguay</option>
+                                                        <option value="US">United States</option>
+                                                        <option value="UZ">Uzbekistan</option>
+                                                        <option value="VA">Vatican City </option>
+                                                        <option value="VC">Saint Vincent and the Grenadines</option>
+                                                        <option value="VE">Venezuela</option>
+                                                        <option value="VN">Vietnam </option>
+                                                        <option value="VU">Vanuatu </option>
+                                                        <option value="WS">Samoa </option>
+                                                        <option value="YE">Yemen </option>
+                                                        <option value="ZA">South Africa</option>
+                                                        <option value="ZM">Zambia </option>
+                                                        <option value="ZW">Zimbabwe </option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 d-flex flex-column bio-data-input-child-container">
+                                            <label for="" class="bio-data-name-label fw-semibold mb-2 ">STATE OF
+                                                RESIDENCE</label>
+                                            <input type="text" class="bio-data-name-input" placeholder="Texas">
+                                        </div>
+                                    </div>
+                                    <div class="row bio-data-input-parent-container mx-0">
+                                        <div class="col-lg-6 d-flex flex-column bio-data-input-child-container">
+                                            <label for="" class="bio-data-name-label fw-semibold mb-2">COUNTRY OF
+                                                CITIZENSHIP</label>
+                                            <div class="position-relative">
+                                                <iconify-icon icon="bxs:down-arrow"
+                                                    class="position-absolute bio-data-gender-icon">
+                                                </iconify-icon>
+                                                <div class="form-group">
+                                                    <select
+                                                        class=" w-100 h-100 bio-data-name-input bio-data-name-select">
+                                                        <option class="" disabled selected>Select Country</option>
+                                                        <option value="AF">Afghanistan</option>
+                                                        <option value="AO">Angola</option>
+                                                        <option value="AL">Albania</option>
+                                                        <option value="AD">Andorra</option>
+                                                        <option value="AE">United Arab Emirates</option>
+                                                        <option value="AR">Argentina</option>
+                                                        <option value="AM">Armenia</option>
+                                                        <option value="AG">Antigua and Barbuda</option>
+                                                        <option value="AU">Australia</option>
+                                                        <option value="AT">Austria</option>
+                                                        <option value="AZ">Azerbaijan</option>
+                                                        <option value="BI">Burundi</option>
+                                                        <option value="BE">Belgium</option>
+                                                        <option value="BJ">Benin</option>
+                                                        <option value="BF">Burkina Faso</option>
+                                                        <option value="BD">Bangladesh</option>
+                                                        <option value="BG">Bulgaria</option>
+                                                        <option value="BH">Bahrain</option>
+                                                        <option value="BS">Bahamas</option>
+                                                        <option value="BA">Bosnia and Herzegovina</option>
+                                                        <option value="BY">Belarus</option>
+                                                        <option value="BZ">Belize</option>
+                                                        <option value="BO">Bolivia</option>
+                                                        <option value="BR">Brazil</option>
+                                                        <option value="BB">Barbados</option>
+                                                        <option value="BN">Brunei</option>
+                                                        <option value="BT">Bhutan</option>
+                                                        <option value="BW">Botswana</option>
+                                                        <option value="CF">Central African Republic</option>
+                                                        <option value="CA">Canada</option>
+                                                        <option value="CH">Switzerland</option>
+                                                        <option value="CL">Chile</option>
+                                                        <option value="CN">China</option>
+                                                        <option value="CI">Ivory Coast</option>
+                                                        <option value="CM">Cameroon</option>
+                                                        <option value="CD">DR Congo</option>
+                                                        <option value="CG">Republic of the Congo</option>
+                                                        <option value="CO">Colombia</option>
+                                                        <option value="KM">Comoros</option>
+                                                        <option value="CV">Cape Verde</option>
+                                                        <option value="CR">Costa Rica</option>
+                                                        <option value="CU">Cuba</option>
+                                                        <option value="CY">Cyprus</option>
+                                                        <option value="CZ">Czechia</option>
+                                                        <option value="DE">Germany</option>
+                                                        <option value="DJ">Djibouti</option>
+                                                        <option value="DM">Dominica</option>
+                                                        <option value="DK">Denmark</option>
+                                                        <option value="DO">Dominican Republic</option>
+                                                        <option value="DZ">Algeria</option>
+                                                        <option value="EC">Ecuador</option>
+                                                        <option value="EG">Egypt</option>
+                                                        <option value="ER">Eritrea</option>
+                                                        <option value="ES">Spain</option>
+                                                        <option value="EE">Estonia</option>
+                                                        <option value="ET">Ethiopia</option>
+                                                        <option value="FI">Finland</option>
+                                                        <option value="FJ">Fiji</option>
+                                                        <option value="FR">France</option>
+                                                        <option value="FM">Micronesia</option>
+                                                        <option value="GA">Gabon</option>
+                                                        <option value="GB">United Kingdom</option>
+                                                        <option value="GE">Georgia</option>
+                                                        <option value="GH">Ghana</option>
+                                                        <option value="GN">Guinea</option>
+                                                        <option value="GM">Gambia</option>
+                                                        <option value="GW">Guinea-Bissau</option>
+                                                        <option value="GQ">Equatorial Guinea</option>
+                                                        <option value="GR">Greece</option>
+                                                        <option value="GD">Grenada</option>
+                                                        <option value="GT">Guatemala</option>
+                                                        <option value="GY">Guyana</option>
+                                                        <option value="HN">Honduras</option>
+                                                        <option value="HR">Croatia</option>
+                                                        <option value="HT">Haiti</option>
+                                                        <option value="HU">Hungary</option>
+                                                        <option value="ID">Indonesia</option>
+                                                        <option value="IN">India</option>
+                                                        <option value="IE">Ireland</option>
+                                                        <option value="IR">Iran</option>
+                                                        <option value="IQ">Iraq</option>
+                                                        <option value="IS">Iceland</option>
+                                                        <option value="IL">Israel</option>
+                                                        <option value="IT">Italy</option>
+                                                        <option value="JM">Jamaica</option>
+                                                        <option value="JO">Jordan</option>
+                                                        <option value="JP">Japan</option>
+                                                        <option value="KZ">Kazakhstan</option>
+                                                        <option value="KE">Kenya</option>
+                                                        <option value="KG">Kyrgyzstan</option>
+                                                        <option value="KH">Cambodia</option>
+                                                        <option value="KI">Kiribati</option>
+                                                        <option value="KN">Saint Kitts and Nevis</option>
+                                                        <option value="KR">South Korea</option>
+                                                        <option value="KW">Kuwait</option>
+                                                        <option value="LA">Laos</option>
+                                                        <option value="LB">Lebanon</option>
+                                                        <option value="LR">Liberia</option>
+                                                        <option value="LY">Libya</option>
+                                                        <option value="LC">Saint Lucia</option>
+                                                        <option value="LI">Liechtenstein</option>
+                                                        <option value="LK">Sri Lanka</option>
+                                                        <option value="LS">Lesotho</option>
+                                                        <option value="LT">Lithuania </option>
+                                                        <option value="LU">Luxembourg </option>
+                                                        <option value="LV">Latvia</option>
+                                                        <option value="MA">Morocco</option>
+                                                        <option value="MC">Monaco</option>
+                                                        <option value="MD">Moldova</option>
+                                                        <option value="MG">Madagascar</option>
+                                                        <option value="MV">Maldives </option>
+                                                        <option value="MX">Mexico</option>
+                                                        <option value="MH">Marshall Islands</option>
+                                                        <option value="MK">Macedonia</option>
+                                                        <option value="ML">Mali</option>
+                                                        <option value="MT">Malta</option>
+                                                        <option value="MM">Myanmar</option>
+                                                        <option value="ME">Montenegro</option>
+                                                        <option value="MN">Mongolia</option>
+                                                        <option value="MZ">Mozambique</option>
+                                                        <option value="MR">Mauritania</option>
+                                                        <option value="MU">Mauritius</option>
+                                                        <option value="MW">Malawi</option>
+                                                        <option value="MY">Malaysia</option>
+                                                        <option value="NA">Namibia </option>
+                                                        <option value="NE">Niger</option>
+                                                        <option value="NG">Nigeria </option>
+                                                        <option value="NI">Nicaragua</option>
+                                                        <option value="NL">Netherlands</option>
+                                                        <option value="NO">Norway</option>
+                                                        <option value="NP">Nepal</option>
+                                                        <option value="NR">Nauru</option>
+                                                        <option value="NZ">New Zealand</option>
+                                                        <option value="OM">Oman</option>
+                                                        <option value="PK">Pakistan</option>
+                                                        <option value="PA">Panama</option>
+                                                        <option value="PE">Peru</option>
+                                                        <option value="PH">Philippines</option>
+                                                        <option value="PW">Palau</option>
+                                                        <option value="PG">Papua New Guinea</option>
+                                                        <option value="PL">Poland</option>
+                                                        <option value="KP">North Korea</option>
+                                                        <option value="PT">Portugal</option>
+                                                        <option value="PY">Paraguay</option>
+                                                        <option value="QA">Qatar</option>
+                                                        <option value="RO">Romania </option>
+                                                        <option value="RU">Russia</option>
+                                                        <option value="RW">Rwanda </option>
+                                                        <option value="SA">Saudi Arabia </option>
+                                                        <option value="SD">Sudan</option>
+                                                        <option value="SN">Senegal</option>
+                                                        <option value="SG">Singapore</option>
+                                                        <option value="SB">Solomon Islands</option>
+                                                        <option value="SL">Sierra Leone</option>
+                                                        <option value="SV">El Salvador</option>
+                                                        <option value="SM">San Marino</option>
+                                                        <option value="SO">Somalia</option>
+                                                        <option value="RS">Serbia</option>
+                                                        <option value="SS">South Sudan</option>
+                                                        <option value="ST">São Tomé and Príncipe </option>
+                                                        <option value="SR">Suriname </option>
+                                                        <option value="SK">Slovakia </option>
+                                                        <option value="SI">Slovenia</option>
+                                                        <option value="SE">Sweden </option>
+                                                        <option value="SZ">Swaziland </option>
+                                                        <option value="SC">Seychelles</option>
+                                                        <option value="SY">Syria</option>
+                                                        <option value="TD">Chad</option>
+                                                        <option value="TG">Togo</option>
+                                                        <option value="TH">Thailand</option>
+                                                        <option value="TJ">Tajikistan</option>
+                                                        <option value="TM">Turkmenistan</option>
+                                                        <option value="TL">Timor-Leste</option>
+                                                        <option value="TO">Tonga</option>
+                                                        <option value="TT">Trinidad and Tobago</option>
+                                                        <option value="TN">Tunisia </option>
+                                                        <option value="TR">Turkey</option>
+                                                        <option value="TV">Tuvalu</option>
+                                                        <option value="TZ">Tanzania</option>
+                                                        <option value="UG">Uganda</option>
+                                                        <option value="UA">Ukraine</option>
+                                                        <option value="UY">Uruguay</option>
+                                                        <option value="US">United States</option>
+                                                        <option value="UZ">Uzbekistan</option>
+                                                        <option value="VA">Vatican City </option>
+                                                        <option value="VC">Saint Vincent and the Grenadines</option>
+                                                        <option value="VE">Venezuela</option>
+                                                        <option value="VN">Vietnam </option>
+                                                        <option value="VU">Vanuatu </option>
+                                                        <option value="WS">Samoa </option>
+                                                        <option value="YE">Yemen </option>
+                                                        <option value="ZA">South Africa</option>
+                                                        <option value="ZM">Zambia </option>
+                                                        <option value="ZW">Zimbabwe </option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 d-flex flex-column bio-data-input-child-container">
+                                            <label for="" class="bio-data-name-label fw-semibold mb-2 ">JOB
+                                                TITLE</label>
+                                            <input type="text" class="bio-data-name-input"
+                                                placeholder="Product Designer">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer px-0">
+                                <button type="button" class="btn cancel-bio-data"
+                                    data-bs-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn update-bio-data">Update</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="workExperienceEdit" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content py-4 px-5">
+                            <div class="modal-header p-0 pb-2">
+                                <h3 class="modal-title fw-semibold" id="staticBackdropLabel">Experience</h3>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body px-0">
+                                <div class="row bio-data-input-parent-container mx-0">
+                                    <div class="col-lg-6 d-flex flex-column bio-data-input-child-container">
+                                        <label for="" class="bio-data-name-label fw-semibold mb-2">COMPANY NAME</label>
+                                        <input type="text" class="bio-data-name-input" placeholder="Capriquota">
+                                    </div>
+                                    <div class="col-lg-6 d-flex flex-column bio-data-input-child-container">
+                                        <label for="" class="bio-data-name-label fw-semibold mb-2">ROLE</label>
+                                        <input type="text" class="bio-data-name-input"
+                                            placeholder="Product Design Team lead">
+                                    </div>
+                                </div>
+                                <div class="row bio-data-input-parent-container mx-0">
+                                    <div class="col-lg-6 d-flex flex-column bio-data-input-child-container">
+                                        <label for="" class="bio-data-name-label fw-semibold mb-2">START DATE</label>
+                                        <input type="date" class="bio-data-name-input w-100" placeholder="Capriquota">
+                                    </div>
+                                    <div class="col-lg-6 d-flex flex-column bio-data-input-child-container">
+                                        <label for="" class="bio-data-name-label fw-semibold mb-2">END DATE</label>
+                                        <input type="date" class="bio-data-name-input w-100"
+                                            placeholder="Product Design Team lead">
+                                    </div>
+                                </div>
+                                <div class="row bio-data-input-parent-container mx-0 mb-0">
+                                    <div class="col-lg-12 d-flex flex-column bio-data-input-child-container mb-0">
+                                        <label for="" class="bio-data-name-label fw-semibold mb-2">ACHIEVEMENTS</label>
+                                        <textarea type="text" class="bio-data-name-input work-experience-textarea"
+                                            placeholder="Capriquota" rows="5"> </textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer px-0">
+                                <button type="button" class="btn cancel-bio-data"
+                                    data-bs-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn update-bio-data">Update</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade border-0" id="aboutEdit" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content py-4 px-5">
+                            <div class="modal-header px-0">
+                                <h3 class="modal-title fw-semibold" id="staticBackdropLabel">About</h3>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row bio-data-input-parent-container mb-0">
+                                    <div class="col-lg-12 d-flex flex-column bio-data-input-child-container px-0">
+                                        <textarea type="text" class="bio-data-name-input work-experience-textarea"
+                                            placeholder="Let’s get to know you" rows="8"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer px-0">
+                                <button type="button" class="btn cancel-bio-data"
+                                    data-bs-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn update-bio-data">Update</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="stackAndSalaryEdit" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content p-4">
+                            <div class="modal-header">
+                                <h3 class="modal-title fw-semibold" id="staticBackdropLabel">Add Skills</h3>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row mx-0">
+                                    <div class="col-lg-4 p-0 profile-add-skill-search-container pe-3">
+                                        <div
+                                            class="profile-search-container bio-data-name-input d-flex justify-content-center align-items-center ps-2 my-4">
+                                            <iconify-icon icon="charm:search" class="fs-4 me-1"></iconify-icon>
+                                            <input type="search" class="add-skill-search-input w-100 ms-2"
+                                                placeholder="Search Stack">
+                                        </div>
+                                        <div class="added-skills-container p-2">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8 ps-4 px-0 profile-skill-added-list">
+                                        <div class="row profile-skills-title mt-4 fw-semibold pb-2 mx-0">
+                                            <p class="mb-0 col-4">Stack</p>
+                                            <p class="mb-0 col-4 text-center stack-years-label">Years of Experience</p>
+                                            <p class="mb-0 col-4 text-center stack-years-label">Experience Level</p>
+                                        </div>
+                                        <div class="row fw-semibold my-4 w-100 p-0 mx-0">
+                                            <div class="col-4 position-relative">
+                                                <a href="#">
+                                                    <iconify-icon icon="material-symbols:cancel-outline"
+                                                        class="position-absolute profile-cancel-stack-icon fs-6">
+                                                    </iconify-icon>
+                                                </a>
+                                                <img src="assets/img/stack-img.png" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="col-4 px-3 profile-skill-year-input">
+                                                <input type="number"
+                                                    class="col-4 w-100 mx-auto profile-skill-experience-select p-2 h-100"
+                                                    placeholder="1 Year">
+                                            </div>
+                                            <div class="col-4 ps-4 position-relative profile-skill-level-select">
+                                                <iconify-icon icon="eva:arrow-down-fill"
+                                                    class="position-absolute profile-skill-experience-select-icon fs-4">
+                                                </iconify-icon>
+                                                <select name="" id=""
+                                                    class="w-100 mx-auto profile-skill-experience-select p-2 h-100">
+                                                    <option value="">Junior</option>
+                                                    <option value="">Seniority</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row fw-semibold my-4 w-100 mx-0">
+                                            <div class="col-4 position-relative">
+                                                <a href="#">
+                                                    <iconify-icon icon="material-symbols:cancel-outline"
+                                                        class="position-absolute profile-cancel-stack-icon fs-6">
+                                                    </iconify-icon>
+                                                </a>
+                                                <img src="assets/img/figma-stack.png" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="col-4 px-3 profile-skill-year-input">
+                                                <input type="number"
+                                                    class="col-4 w-100 mx-auto profile-skill-experience-select p-2 h-100"
+                                                    placeholder="1 Year">
+                                            </div>
+                                            <div class="col-4 ps-4 position-relative profile-skill-level-select">
+                                                <iconify-icon icon="eva:arrow-down-fill"
+                                                    class="position-absolute profile-skill-experience-select-icon fs-4">
+                                                </iconify-icon>
+                                                <select name="" id=""
+                                                    class="w-100 mx-auto profile-skill-experience-select p-2 h-100">
+                                                    <option value="">Junior</option>
+                                                    <option value="">Seniority</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row fw-semibold my-4 w-100 mx-0">
+                                            <div class="col-4 position-relative">
+                                                <a href="#">
+                                                    <iconify-icon icon="material-symbols:cancel-outline"
+                                                        class="position-absolute profile-cancel-stack-icon fs-6">
+                                                    </iconify-icon>
+                                                </a>
+                                                <img src="assets/img/zeplin-stack.png" alt="" class="img-fluid">
+                                            </div>
+                                            <div class="col-4 px-3 profile-skill-year-input">
+                                                <input type="number"
+                                                    class="col-4 w-100 mx-auto profile-skill-experience-select p-2 h-100"
+                                                    placeholder="1 Year">
+                                            </div>
+                                            <div class="col-4 ps-4 position-relative profile-skill-level-select">
+                                                <iconify-icon icon="eva:arrow-down-fill"
+                                                    class="position-absolute profile-skill-experience-select-icon fs-4">
+                                                </iconify-icon>
+                                                <select name="" id=""
+                                                    class="w-100 mx-auto profile-skill-experience-select p-2 h-100">
+                                                    <option value="">Junior</option>
+                                                    <option value="">Seniority</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn cancel-bio-data"
+                                    data-bs-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn update-bio-data">Update</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="viewStack" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content p-4">
+                            <div class="modal-header">
+                                <h3 class="modal-title semibold" id="staticBackdropLabel">My Stacks</h3>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body px-4 row mx-0">
+                                <div class="each-stack-img-container position-relative  col-lg-3 col-6 pe-0">
+                                    <iconify-icon icon="material-symbols:cancel-outline"
+                                        class="position-absolute cancel-stack-icon fs-5"></iconify-icon>
+                                    <img src="assets/img/kotlin-black.png" alt="" class="img-fluid stack-img">
+                                </div>
+                                <div class="each-stack-img-container position-relative  col-lg-3 col-6 pe-0">
+                                    <iconify-icon icon="material-symbols:cancel-outline"
+                                        class="position-absolute cancel-stack-icon fs-5"></iconify-icon>
+                                    <img src="assets/img/java-yellow.png" alt="" class="img-fluid stack-img">
+                                </div>
+                                <div class="each-stack-img-container position-relative  col-lg-3 col-6 pe-0">
+                                    <iconify-icon icon="material-symbols:cancel-outline"
+                                        class="position-absolute cancel-stack-icon fs-5"></iconify-icon>
+                                    <img src="assets/img/flutter-black.png" alt="" class="img-fluid stack-img">
+                                </div>
+                                <div class="each-stack-img-container position-relative  col-lg-3 col-6 pe-0">
+                                    <iconify-icon icon="material-symbols:cancel-outline"
+                                        class="position-absolute cancel-stack-icon fs-5"></iconify-icon>
+                                    <img src="assets/img/php-purple.png" alt="" class="img-fluid stack-img">
+                                </div>
+                                <div class="each-stack-img-container position-relative  col-lg-3 col-6 pe-0">
+                                    <iconify-icon icon="material-symbols:cancel-outline"
+                                        class="position-absolute cancel-stack-icon fs-5"></iconify-icon>
+                                    <img src="assets/img/android-yellow.png" alt="" class="img-fluid stack-img">
+                                </div>
+                                <div class="each-stack-img-container position-relative  col-lg-3 col-6 pe-0">
+                                    <iconify-icon icon="material-symbols:cancel-outline"
+                                        class="position-absolute cancel-stack-icon fs-5"></iconify-icon>
+                                    <img src="assets/img/swift-black.png" alt="" class="img-fluid stack-img">
+                                </div>
+                                <div class="each-stack-img-container position-relative  col-lg-3 col-6 pe-0">
+                                    <iconify-icon icon="material-symbols:cancel-outline"
+                                        class="position-absolute cancel-stack-icon fs-5"></iconify-icon>
+                                    <img src="assets/img/vue-black.png" alt="" class="img-fluid stack-img">
+                                </div>
+                                <div class="each-stack-img-container position-relative  col-lg-3 col-6 pe-0">
+                                    <iconify-icon icon="material-symbols:cancel-outline"
+                                        class="position-absolute cancel-stack-icon fs-5"></iconify-icon>
+                                    <img src="assets/img/kotlin-purple.png" alt="" class="img-fluid stack-img">
+                                </div>
+                                <div class="each-stack-img-container position-relative  col-lg-3 col-6 pe-0">
+                                    <iconify-icon icon="material-symbols:cancel-outline"
+                                        class="position-absolute cancel-stack-icon fs-5"></iconify-icon>
+                                    <img src="assets/img/kotlin-yellow.png" alt="" class="img-fluid stack-img">
+                                </div>
+                                <div class="each-stack-img-container position-relative  col-lg-3 col-6 pe-0">
+                                    <iconify-icon icon="material-symbols:cancel-outline"
+                                        class="position-absolute cancel-stack-icon fs-5"></iconify-icon>
+                                    <img src="assets/img/kotlin-purple.png" alt="" class="img-fluid stack-img">
+                                </div>
+                                <div class="each-stack-img-container position-relative  col-lg-3 col-6 pe-0">
+                                    <iconify-icon icon="material-symbols:cancel-outline"
+                                        class="position-absolute cancel-stack-icon fs-5"></iconify-icon>
+                                    <img src="assets/img/kotlin-black.png" alt="" class="img-fluid stack-img">
+                                </div>
+                                <div class="each-stack-img-container position-relative  col-lg-3 col-6 pe-0">
+                                    <iconify-icon icon="material-symbols:cancel-outline"
+                                        class="position-absolute cancel-stack-icon fs-5"></iconify-icon>
+                                    <img src="assets/img/swift-black.png" alt="" class="img-fluid stack-img">
+                                </div>
+                                <div class="d-flex align-items-center stack-test-all-level-container mt-3">
+                                    <p class="me-2 stack-stack-note-text">Note:</p>
+                                    <div class="d-flex align-items-center stack-test-each-level-container">
+                                        <div class="d-flex justify-content-center align-items-center  ">
+                                            <div class="stack-senior-level-container me-1">
+                                            </div>
+                                            <p class=" fw-normal me-2 stack-level-text-list">Senior Level</p>
+                                        </div>
+                                        <div
+                                            class="d-flex justify-content-center align-items-center stack-intermediate-level-parent-container">
+                                            <div class="stack-intermediate-level-container me-1">
+                                            </div>
+                                            <p class="stack-level-text me-2 stack-level-text-list">Intermediate Level
+                                            </p>
+                                        </div>
+                                        <div class="d-flex justify-content-center align-items-center">
+                                            <div class="stack-junior-level-container me-1">
+                                            </div>
+                                            <p class="stack-level-text me-2 stack-level-text-list">Junior Level</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="educationEdit" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                        <div class="modal-content p-4">
+                            <div class="modal-header">
+                                <h3 class="modal-title fw-semibold" id="staticBackdropLabel">Education</h3>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body px-4">
+                                <div class="row bio-data-input-parent-container mx-0">
+                                    <div class="col-lg-12 d-flex flex-column bio-data-input-child-container">
+                                        <label for="" class="bio-data-name-label fw-semibold mb-2">INSTITUTION</label>
+                                        <input type="text" class="bio-data-name-input" placeholder="Capriquota">
+                                    </div>
+                                </div>
+                                <div class="row bio-data-input-parent-container mx-0">
+                                    <div class="col-lg-6 d-flex flex-column bio-data-input-child-container">
+                                        <label for="" class="bio-data-name-label fw-semibold mb-2">DEGREE</label>
+                                        <div class="position-relative">
+                                            <iconify-icon icon="bxs:down-arrow"
+                                                class="position-absolute bio-data-gender-icon">
+                                            </iconify-icon>
+                                            <select name="" class="bio-data-name-input bio-data-name-select w-100">
+                                                <option value="">SSCE</option>
+                                                <option value="">NATIONAL DIPLOMA</option>
+                                                <option value="">B.sc</option>
+                                                <option value="">Masters</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 d-flex flex-column bio-data-input-child-container">
+                                        <label for="" class="bio-data-name-label fw-semibold mb-2">COURSE OF
+                                            STUDY</label>
+                                        <input type="text" class="bio-data-name-input" placeholder="Computer Science">
+                                    </div>
+                                </div>
+                                <div class="row bio-data-input-parent-container mx-0">
+                                    <div class="col-lg-6 d-flex flex-column bio-data-input-child-container">
+                                        <label for="" class="bio-data-name-label fw-semibold mb-2">START DATE</label>
+                                        <input type="date" class="bio-data-name-input w-100" placeholder="Capriquota">
+                                    </div>
+                                    <div class="col-lg-6 d-flex flex-column bio-data-input-child-container">
+                                        <label for="" class="bio-data-name-label fw-semibold mb-2">END DATE</label>
+                                        <input type="date" class="bio-data-name-input w-100"
+                                            placeholder="Product Design Team lead">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn cancel-bio-data"
+                                    data-bs-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn update-bio-data">Update</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="salaryEdit" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content p-4">
+                            <div class="modal-header">
+                                <h3 class="modal-title fw-semibold" id="staticBackdropLabel">Salary</h3>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row bio-data-input-parent-container mx-0">
+                                    <div class="col-lg-12 d-flex flex-column bio-data-input-child-container px-0">
+                                        <div class="position-relative">
+                                            <iconify-icon icon="bxs:down-arrow"
+                                                class="position-absolute bio-data-gender-icon">
+                                            </iconify-icon>
+                                            <select name="" class="bio-data-name-input bio-data-name-select w-100">
+                                                <option value="">$2,000 - $5,000 </option>
+                                                <option value="">$5,000 - $10,000</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn cancel-bio-data"
+                                    data-bs-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn update-bio-data">Update</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-panel-nav d-flex justify-content-between align-items-end pt-1">
+                    <h2 class="fw-bold p-0 m-0">My Profile</h2>
+                    <div
+                        class="notification-container d-flex justify-content-center align-items-center admin-panel-notification">
+                        <p class="p-0 m-0 ready-to-work-text fw-semibold">Ready to work</p>
+                        <label class="toggle ms-3 me-4">
+                            <input class="toggle-checkbox" type="checkbox" checked onchange="workMode()">
+                            <div class="toggle-switch"></div>
+                        </label>
+                        <a href="Notification.html"
+                            class="position-relative p-0 m-0 ms-1 d-flex justify-content-center align-items-center notification-bar-icon">
+                            <iconify-icon icon="clarity:notification-line" class="fs-3" role="button"></iconify-icon>
+                            <p
+                                class="notification-number p-0 m-0 d-flex justify-content-center align-items-center fw-bold">
+                                2
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <h4 class="mt-4 profile-desc">Let’s get to know you</h4>
+                <div class="profile-personal-information-container row mx-0 mt-4">
+                    <div class="col-lg-6 px-0">
+                        <div class="bio-data-parent-container bio-data-parent-container-top p-4 rounded mb-5">
+                            <div class="bio-data-child-container d-flex justify-content-between align-items-center">
+                                <h5 class="fw-semibold bio-data-title">BIO DATA</h5>
+                                <div class="edit-details-container d-flex justify-content-center align-items-center flex-column text-center"
+                                    data-bs-toggle="modal" data-bs-target="#bioDataEdit">
+                                    <iconify-icon icon="bxs:pencil" class="fs-4"></iconify-icon>
+                                    <p class="edit-biodata-edit-text">Edit</p>
+                                </div>
+                            </div>
+                            <div class="bio-data-info-container d-flex align-items-center my-4 pb-4">
+                                <div class="position-relative">
+                                    <img src="assets/img/open-to-work-tag.png" alt="" class="open-to-work-tag">
+                                    <img src="assets/img/bio-data-picture.png" alt="" class="img-fluid"
+                                        id="bio-data-profile-image">
+                                </div>
+                                <div class="bio-data-info-details ms-4">
+                                    <h4 class="bio-data-fullname fw-semibold mb-0">Firstname Lastname </h4>
+                                    <p class="fw-semibold my-1">Designer</p>
+                                    <p class="fw-semibold fs-6">State / Country</p>
+                                </div>
+                            </div>
+                            <div class="bio-data-email-container d-flex justify-content-between align-items-center">
+                                <p class="bio-data-email-label ">Email Address</p>
+                                <p class="bio-data-email fw-semibold">Joemickey@work.com</p>
+                            </div>
+                            <div class="bio-data-gender-container d-flex justify-content-between align-items-center">
+                                <p class="bio-data-gender-label ">Phone Number</p>
+                                <p class="bio-data-gender fw-semibold">N/A</p>
+                            </div>
+                            <div class="bio-data-gender-container d-flex justify-content-between align-items-center">
+                                <p class="bio-data-gender-label ">Gender</p>
+                                <p class="bio-data-gender fw-semibold">N/A</p>
+                            </div>
+                            <div class="bio-data-residence-container d-flex justify-content-between align-items-center">
+                                <p class="bio-data-residence-label ">Country of Residence</p>
+                                <p class="bio-data-residence fw-semibold">N/A</p>
+                            </div>
+                            <div
+                                class="bio-data-citizenship-container d-flex justify-content-between align-items-center">
+                                <p class="bio-data-citizenship-label ">Country of Citizenship</p>
+                                <p class="bio-data-citizenship fw-semibold">N/A</p>
+                            </div>
+                        </div>
+                        <div class="bio-data-parent-container p-4 rounded">
+                            <div class="bio-data-child-container d-flex justify-content-between align-items-center">
+                                <h5 class="fw-semibold bio-data-title">EXPERIENCE</h5>
+                                <div class="edit-details-container d-flex justify-content-center align-items-center flex-column text-center"
+                                    data-bs-toggle="modal" data-bs-target="#workExperienceEdit">
+                                    <iconify-icon icon="akar-icons:plus" class="fs-5"></iconify-icon>
+                                    <p class="edit-biodata-add-text">Add New</p>
+                                </div>
+                            </div>
+                            <div class="work-experience-list-containers py-3">
+                                <div
+                                    class="product-design-teamlead-container d-flex justify-content-between align-items-center">
+                                    <p class="product-design-teamlead-text fw-semibold">Product Design Teamlead</p>
+                                    <div class="product-design-teamlead-icon-container d-flex align-items-center">
+                                        <div class="product-design-teamlead-edit-icon-container text-center me-3">
+                                            <iconify-icon icon="akar-icons:pencil" class="fs-5"></iconify-icon> <br>
+                                            <span class="product-design-edit-icon-text fw-semibold">
+                                                Edit
+                                            </span>
+                                        </div>
+                                        <div class="product-design-teamlead-delete-icon-container text-center">
+                                            <iconify-icon icon="ant-design:delete-filled" class="fs-5"></iconify-icon>
+                                            <br>
+                                            <span class="product-design-delete-icon-text fw-semibold">
+                                                Delete
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="work-experience-company-name-container d-flex align-items-center">
+                                    <h5 class="me-3 fw-semibold">CAPRIQUOTA</h5>
+                                    <h5 class="fw-semibold">2019-Till Date</h5>
+                                </div>
+                                <div class="work-experience-job-description-container">
+                                    <p class="work-experience-job-description-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum cum adipisci,
+                                        autem ab laudantium magni! neque, assumenda aut. Velit, rerum labore.
+                                    </p>
+                                    <ol class="work-experience-task-list ps-3">
+                                        <li>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolosse.
+                                        </li>
+                                        <li>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et doloreetur esse.
+                                        </li>
+                                        <li>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolortur esse.
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <div class="work-experience-list-containers py-3 border-0">
+                                <div
+                                    class="product-design-teamlead-container d-flex justify-content-between align-items-center">
+                                    <p class="product-design-teamlead-text fw-semibold">Product Design Teamlead</p>
+                                    <div class="product-design-teamlead-icon-container d-flex align-items-center">
+                                        <div class="product-design-teamlead-edit-icon-container text-center me-3">
+                                            <iconify-icon icon="akar-icons:pencil" class="fs-4"></iconify-icon> <br>
+                                            <span class="product-design-edit-icon-text fw-semibold">
+                                                Edit
+                                            </span>
+                                        </div>
+                                        <div class="product-design-teamlead-delete-icon-container text-center">
+                                            <iconify-icon icon="ant-design:delete-filled" class="fs-4"></iconify-icon>
+                                            <br>
+                                            <span class="product-design-delete-icon-text fw-semibold">
+                                                Delete
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="work-experience-company-name-container d-flex align-items-center">
+                                    <h5 class="me-3 fw-semibold">CAPRIQUOTA</h5>
+                                    <h5 class="fw-semibold">2019-Till Date</h5>
+                                </div>
+                                <div class="work-experience-job-description-container">
+                                    <p class="work-experience-job-description-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum cum adipisci,
+                                        autem ab laudantium magni! neque, assumenda aut. Velit, rerum labore.
+                                    </p>
+                                    <ol class="work-experience-task-list ps-3">
+                                        <li>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolosse.
+                                        </li>
+                                        <li>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et doloreetur esse.
+                                        </li>
+                                        <li>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolortur esse.
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 px-0 ps-5 last-bio-data-column">
+                        <div class="bio-data-about-container p-4 rounded mb-3">
+                            <div class="bio-data-child-container d-flex justify-content-between align-items-center">
+                                <h5 class="fw-semibold bio-data-title">ABOUT</h5>
+                                <div class="edit-details-container d-flex justify-content-center align-items-center flex-column text-center"
+                                    data-bs-toggle="modal" data-bs-target="#aboutEdit">
+                                    <!-- <iconify-icon icon="akar-icons:plus" class="fs-5"></iconify-icon> -->
+                                    <iconify-icon icon="bxs:pencil" class="fs-4"></iconify-icon>
+                                    <p class="edit-biodata-add-text">Edit</p>
+                                </div>
+                            </div>
+                            <textarea class="w-100 h-100 py-2 bio-data-textarea"
+                                placeholder="Tell us about yourself in 150 words" cols="" rows="4" disabled></textarea>
+                        </div>
+                        <div class="bio-data-parent-container p-4 rounded mb-5 mt-4">
+                            <div class="bio-data-child-container d-flex justify-content-between align-items-center">
+                                <h5 class="fw-semibold bio-data-title">STACK AND SKILLS</h5>
+                                <div class="edit-details-container d-flex justify-content-center align-items-center flex-column text-center"
+                                    data-bs-toggle="modal" data-bs-target="#stackAndSalaryEdit">
+                                    <iconify-icon icon="akar-icons:plus" class="fs-5"></iconify-icon>
+                                    <p class="edit-biodata-add-text">Add New</p>
+                                </div>
+                            </div>
+                            <div
+                                class=" d-flex justify-content-center align-items-center  pt-2 flex-column add-new-bio-data">
+                                <p class="m-0 p-0 text-center lh-sm">
+                                    Please choose your preferred tech stack(s). If you aren't interested in any of
+                                    these, you can take tests for your skills in the Additional skills section below. We
+                                    will consider applications like yours to interview on a case-by-case basis.
+                                </p>
+                                <p class="view-add-stacks view-add-stacks-filled fs-5 mt-3 mb-0">View your stack(s)</p>
+                            </div>
+                        </div>
+                        <div class="bio-data-parent-container px-3 py-4 rounded mb-4">
+                            <div class="bio-data-child-container d-flex justify-content-between align-items-center">
+                                <h5 class="fw-semibold bio-data-title">EDUCATION</h5>
+                                <div class="edit-details-container d-flex justify-content-center align-items-center flex-column text-center"
+                                    data-bs-toggle="modal" data-bs-target="#educationEdit">
+                                    <iconify-icon icon="akar-icons:plus" class="fs-5"></iconify-icon>
+                                    <p class="edit-biodata-add-text">Add New</p>
+                                </div>
+                            </div>
+                            <div
+                                class="product-design-teamlead-container d-flex justify-content-between align-items-center my-4">
+                                <div>
+                                    <h6 class="m-0 p-0">March 2017 - March 2021</h6>
+                                    <h4 class="fw-semibold my-1 p-0">Havard University</h4>
+                                    <h6 class="fw-semibold m-0 p-0">BSc Computer Science</h6>
+                                </div>
+                                <div class="product-design-teamlead-icon-container d-flex align-items-center">
+                                    <div class="product-design-teamlead-edit-icon-container text-center me-3">
+                                        <iconify-icon icon="akar-icons:pencil" class="fs-4"></iconify-icon> <br>
+                                        <span class="product-design-edit-icon-text fw-semibold">
+                                            Edit
+                                        </span>
+                                    </div>
+                                    <div class="product-design-teamlead-delete-icon-container text-center">
+                                        <iconify-icon icon="ant-design:delete-filled" class="fs-4"></iconify-icon> <br>
+                                        <span class="product-design-delete-icon-text fw-semibold">
+                                            Delete
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="product-design-teamlead-container d-flex justify-content-between align-items-center my-4">
+                                <div>
+                                    <h6 class="m-0 p-0">March 2017 - March 2021</h6>
+                                    <h4 class="fw-semibold my-1 p-0">Havard University</h4>
+                                    <h6 class="fw-semibold m-0 p-0">BSc Computer Science</h6>
+                                </div>
+                                <div class="product-design-teamlead-icon-container d-flex align-items-center">
+                                    <div class="product-design-teamlead-edit-icon-container text-center me-3">
+                                        <iconify-icon icon="akar-icons:pencil" class="fs-4"></iconify-icon> <br>
+                                        <span class="product-design-edit-icon-text fw-semibold">
+                                            Edit
+                                        </span>
+                                    </div>
+                                    <div class="product-design-teamlead-delete-icon-container text-center">
+                                        <iconify-icon icon="ant-design:delete-filled" class="fs-4"></iconify-icon> <br>
+                                        <span class="product-design-delete-icon-text fw-semibold">
+                                            Delete
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="product-design-teamlead-container d-flex justify-content-between align-items-center my-4">
+                                <div>
+                                    <h6 class="m-0 p-0">March 2017 - March 2021</h6>
+                                    <h4 class="fw-semibold my-1 p-0">Havard University</h4>
+                                    <h6 class="fw-semibold m-0 p-0">BSc Computer Science</h6>
+                                </div>
+                                <div class="product-design-teamlead-icon-container d-flex align-items-center">
+                                    <div class="product-design-teamlead-edit-icon-container text-center me-3">
+                                        <iconify-icon icon="akar-icons:pencil" class="fs-4"></iconify-icon> <br>
+                                        <span class="product-design-edit-icon-text fw-semibold">
+                                            Edit
+                                        </span>
+                                    </div>
+                                    <div class="product-design-teamlead-delete-icon-container text-center">
+                                        <iconify-icon icon="ant-design:delete-filled" class="fs-4"></iconify-icon> <br>
+                                        <span class="product-design-delete-icon-text fw-semibold">
+                                            Delete
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bio-data-parent-container px-4 rounded py-5">
+                            <div class="bio-data-child-container d-flex justify-content-between align-items-center">
+                                <h5 class="fw-semibold bio-data-title">SALARY EXPECTATION</h5>
+                                <div class="edit-details-container d-flex justify-content-center align-items-center flex-column text-center"
+                                    data-bs-toggle="modal" data-bs-target="#salaryEdit">
+                                    <iconify-icon icon="akar-icons:plus" class="fs-5"></iconify-icon>
+                                    <p class="edit-biodata-add-text">Add New</p>
+                                </div>
+                            </div>
+                            <h5 class="fw-semibold mt-3">Salary Range </h5>
+                            <h5>₦350,000.00 - ₦450,000.00</h5>
+                        </div>
+                    </div>
+                </div>
+                <footer class="row mx-0 mt-5 mb-2 footer">
+                    <div class="col-lg-6 col-md-12 fw-semibold px-0">
+                        <p class="footer-menu-link text-start">© 2022 Aurbase Technologies Inc</p>
+                    </div>
+                    <div class="col-lg-2 col-md-12 fw-semibold my-1 px-0">
+                        <a href="#" class="footer-menu-link">Privacy & Policy</a>
+                    </div>
+                    <div class="col-lg-2 col-md-12 fw-semibold my-1 px-0">
+                        <a href="#" class="footer-menu-link">Terms & Conditions</a>
+                    </div>
+                    <div class="col-lg-2 col-md-12 fw-semibold my-1 px-0">
+                        <a href="#" class="footer-menu-link">Code of Conduct</a>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/intlTelInput-jquery.min.js'></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/mobile-number.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
+</body>
+</html>
